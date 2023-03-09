@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24.344" height="17.813" viewBox="0 0 24.344 17.813">
-  <g id="arrow-right-white" transform="translate(24.344) rotate(90)">
+  <g id="arrow-left-white" transform="translate(0 17.813) rotate(-90)">
     <g id="row1" transform="translate(0 0)">
       <path id="nav:2_3_" d="M8.907,0,0,24.344l8.907-5.255,8.907,5.255Zm0,3.941,6.3,17.234-6.3-3.729Z" transform="translate(0 0)" fill="#fff"/>
     </g>

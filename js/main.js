@@ -30,10 +30,10 @@
     margin: 0,
     items: 1,
     responsiveClass: true,
-    nav: false,
+    nav: true,
     navText: [
-      '<span class="fas fa-chevron-left"></span>',
-      '<span class="fas fa-chevron-right"></span>',
+      '<img src="images/arrow-left-white.svg"  alt="" class="arr-right" /> PREV',
+      'NEXT <img src="images/arrow-right-white.svg"  alt="" class="arr-right" />',
     ],
     responsive: {
       0: {},

@@ -31,27 +31,27 @@
       <!-- offcanvas-start -->
       <div class="offcanvas-menu">
         <ul class="offmenu" id="menuParent">
-          <a href="#" class="offcanvas-close"><i class="fa fa-times"></i></a>
-          <li class="active"><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT US</a></li>
-          <li class="dropdown">
-            <a href="#" data-bs-toggle="collapse" data-bs-target="#drop-menu1"
-              >OUR HORSES</a
-            >
-            <div
-              class="dropdown-menu-custom collapse"
-              id="drop-menu1"
-              data-bs-parent="#menuParent"
-            >
-              <ul>
-                <li><a href="#">YEARLINGS</a></li>
-                <li><a href="#">2 YEAR OLDS</a></li>
-                <li><a href="#">3 YEAR OLD PLUS</a></li>
-              </ul>
-            </div>
-          </li>
-          <li><a href="#">LATEST NEWS</a></li>
-          <li><a href="#">CONTACT & FIND US</a></li>
+          <a href="#" class="offcanvas-close"><i class="fal fa-times"></i></a>
+          <ul class="mobile-menu">
+            <li>
+              <a class="active" href="#">HOME</a>
+            </li>
+            <li>
+              <a href="#">THE BOAT RACE</a>
+            </li>
+            <li>
+              <a href="#">CLUBS</a>
+            </li>
+            <li>
+              <a href="#">RESULTS</a>
+            </li>
+            <li>
+              <a href="#">NEWS</a>
+            </li>
+            <li>
+              <a href="#">PARTNERS</a>
+            </li>
+          </ul>
         </ul>
       </div>
       <div class="offcanvas-overlay"></div>
@@ -61,53 +61,72 @@
       <header class="header-section">
         <div class="header-in">
           <div class="header__top">
-            <p>
-              <img src="images/Info-i.svg" alt="" class="info-i" /> Coming to
-              the race? View our
-              <a class="underline" href="#">latest guidelines</a>
-            </p>
-            <ul class="s-menu">
-              <li>
-                <a href="#">
-                  <img src="images/twitter.svg" alt="" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="images/facebook.svg" alt="" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="images/instagram.svg" alt="" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="images/youtube.svg" alt="" />
-                </a>
-              </li>
-            </ul>
+            <div class="container">
+              <div class="header__top__inner">
+                <p>
+                  <img src="images/Info-i.svg" alt="" class="info-i" /> Coming
+                  to the race? View our
+                  <a class="underline" href="#">latest guidelines</a>
+                </p>
+                <ul class="s-menu d-lg-flex d-none">
+                  <li>
+                    <a href="#">
+                      <img src="images/twitter.svg" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="images/facebook.svg" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="images/instagram.svg" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="images/youtube.svg" alt="" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
+
           <div class="header__main">
             <div class="container">
-              <div class="header-section__inner">
+              <div class="header__main__inner">
                 <a href="index.html" class="header-logo">
                   <img src="images/logo.svg" alt="" />
                 </a>
 
-                <div class="main-menu">
+                <div class="main-menu d-lg-block d-none">
                   <ul>
                     <li>
-                      <a href="#">HOME</a>
+                      <a class="active" href="#">HOME</a>
+                    </li>
+                    <li>
                       <a href="#">THE BOAT RACE</a>
+                    </li>
+                    <li>
                       <a href="#">CLUBS</a>
+                    </li>
+                    <li>
                       <a href="#">RESULTS</a>
+                    </li>
+                    <li>
                       <a href="#">NEWS</a>
+                    </li>
+                    <li>
                       <a href="#">PARTNERS</a>
                     </li>
                   </ul>
                 </div>
+
+                <a href="#" class="offcanvas-open d-lg-none">
+                  <i class="far fa-bars"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -122,11 +141,17 @@
           <div
             class="hero-slider hero-slider-active slider-dots-1 slider-arrow-1 owl-carousel"
           >
-            <div class="hero-slide">
+            <div
+              class="hero-slide"
+              style="
+                background: url('images/hero-image.png') no-repeat center
+                  center/cover;
+              "
+            >
               <div class="container">
                 <div class="hero-slide__inner">
                   <div class="hero-slide__content">
-                    <h4 class="h4-box">The Gemini Boat Race 2023</h4>
+                    <div class="h4-box">The Gemini Boat Race 2023</div>
                     <h1 class="h1">Sunday 26th March</h1>
                     <h2>
                       The 77th Women’s Boat Race - 4pm <br />
@@ -134,8 +159,116 @@
                     </h2>
                     <div class="hr-countdown">
                       <!-- yyyy/dd/mm -->
-                      <div class="coundown-c" data-countdown="2021/06/12"></div>
-                      <a href="#" class="default-button">
+                      <div
+                        class="countdown-c"
+                        data-countdown="2021/06/12"
+                      ></div>
+                      <a href="#" class="default-button r-button">
+                        <span class="txt">JOIN IN</span>
+                        <img
+                          src="images/arrow-right-white.svg"
+                          alt=""
+                          class="arr-right"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="hero-slide"
+              style="
+                background: url('images/hero-image.png') no-repeat center
+                  center/cover;
+              "
+            >
+              <div class="container">
+                <div class="hero-slide__inner">
+                  <div class="hero-slide__content">
+                    <div class="h4-box">The Gemini Boat Race 2023</div>
+                    <h1 class="h1">Sunday 26th March</h1>
+                    <h2>
+                      The 77th Women’s Boat Race - 4pm <br />
+                      The 168th Men’s Boat Race - 5pm
+                    </h2>
+                    <div class="hr-countdown">
+                      <!-- yyyy/dd/mm -->
+                      <div
+                        class="countdown-c"
+                        data-countdown="2023/06/12"
+                      ></div>
+                      <a href="#" class="default-button r-button">
+                        <span class="txt">JOIN IN</span>
+                        <img
+                          src="images/arrow-right-white.svg"
+                          alt=""
+                          class="arr-right"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="hero-slide"
+              style="
+                background: url('images/hero-image.png') no-repeat center
+                  center/cover;
+              "
+            >
+              <div class="container">
+                <div class="hero-slide__inner">
+                  <div class="hero-slide__content">
+                    <div class="h4-box">The Gemini Boat Race 2023</div>
+                    <h1 class="h1">Sunday 26th March</h1>
+                    <h2>
+                      The 77th Women’s Boat Race - 4pm <br />
+                      The 168th Men’s Boat Race - 5pm
+                    </h2>
+                    <div class="hr-countdown">
+                      <!-- yyyy/dd/mm -->
+                      <div
+                        class="countdown-c"
+                        data-countdown="2023/06/12"
+                      ></div>
+                      <a href="#" class="default-button r-button">
+                        <span class="txt">JOIN IN</span>
+                        <img
+                          src="images/arrow-right-white.svg"
+                          alt=""
+                          class="arr-right"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="hero-slide"
+              style="
+                background: url('images/hero-image.png') no-repeat center
+                  center/cover;
+              "
+            >
+              <div class="container">
+                <div class="hero-slide__inner">
+                  <div class="hero-slide__content">
+                    <div class="h4-box">The Gemini Boat Race 2023</div>
+                    <h1 class="h1">Sunday 26th March</h1>
+                    <h2>
+                      The 77th Women’s Boat Race - 4pm <br />
+                      The 168th Men’s Boat Race - 5pm
+                    </h2>
+                    <div class="hr-countdown">
+                      <!-- yyyy/dd/mm -->
+                      <div
+                        class="countdown-c"
+                        data-countdown="2023/06/12"
+                      ></div>
+                      <a href="#" class="default-button r-button">
                         <span class="txt">JOIN IN</span>
                         <img
                           src="images/arrow-right-white.svg"
@@ -159,11 +292,15 @@
                       become synonymous with British tradition and excellence.
                     </h3>
                     <h4>
-                      Welcome to one of the world’s oldest and most famous
-                      amateur sporting events.
+                      Welcome to one of the world’s oldest and most
+                      <br class="d-md-block d-none" />
+                      famous amateur sporting events.
                     </h4>
                     <div class="buttons">
-                      <a href="#" class="default-button default-button--white">
+                      <a
+                        href="#"
+                        class="button default-button default-button--white"
+                      >
                         <span class="txt">FIND OUT MORE</span>
                         <img
                           src="images/arrow-right-dark.svg"
@@ -171,7 +308,10 @@
                           class="arr-right"
                         />
                       </a>
-                      <a href="#" class="default-button default-button--white">
+                      <a
+                        href="#"
+                        class="button default-button default-button--white"
+                      >
                         <span class="txt">VIEW THE COURSE</span>
                         <img
                           src="images/arrow-right-dark.svg"
@@ -182,25 +322,33 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4">
-                  <div class="hero-news-cards__wrapper">
-                    <h3>LATEST NEWS</h3>
+                <div class="col-lg-4 d-flex">
+                  <div class="hero-news-cards__wrapper ms-auto">
+                    <h3 class="t-h3">LATEST NEWS</h3>
                     <div class="hero-news-cards__wrap">
-                      <div
+                      <a
+                        href="#"
                         class="hero-news-card"
-                        style="background: url('images/hero-news-card-1.png')"
+                        style="
+                          background: url('images/hero-news-card-1.png')
+                            no-repeat center center/cover;
+                        "
                       >
                         <h4>
                           T. Rowe Price announced as Official Investment Manager
                           Partner of The Boat Race
                         </h4>
-                      </div>
-                      <div
+                      </a>
+                      <a
+                        href="#"
                         class="hero-news-card"
-                        style="background: url('images/hero-news-card-2.png')"
+                        style="
+                          background: url('images/hero-news-card-2.png')
+                            no-repeat center center/cover;
+                        "
                       >
                         <h4>CUBC Women: 5th February 2023</h4>
-                      </div>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -217,7 +365,7 @@
               <div
                 class="partners-section__title sec-title cont-blk cont-blk--center"
               >
-                <h2 class="h2 mb-0">Our Partners</h2>
+                <h2 class="h2">Our Partners</h2>
                 <p>
                   We love working with organisations who share our ambition and
                   use The Boat Race <br class="d-md-block d-none" />
@@ -255,12 +403,14 @@
         <!-- partners-section-end -->
 
         <!-- winner-section -->
-        <section class="winner-section">
-          <div class="winner-section__title">
+        <section class="winner-section pb-0">
+          <div class="winner-section__title sec-title">
             <div class="container">
               <div class="winner-section__title__inner">
                 <div class="cont-blk cont-blk--center">
-                  <h2 class="h2 mb-0">
+                  <h2
+                    class="h2 mb-0 d-flex align-items-center flex-md-row flex-column"
+                  >
                     <img src="images/golden-cup.svg" alt="" class="gold-cup" />
                     <strong class="fw-700"
                       >The Gemini Boat Race 2022 Winners</strong
@@ -273,41 +423,46 @@
 
           <div class="winner__d-card__wrap row">
             <div class="col-lg-6">
-              <div class="winner__d-card">
-                <div class="winner-d-card__title">
-                  <h4>WINNER</h4>
-                  <h3>OXFORD</h3>
-                </div>
-                <div class="winner-d-card__body">
-                  <span class="quote">“</span>
-                  <p>
-                    Oxford men broke Cambridge’s five year winning streak in the
-                    Men’s Boat Race winning by 2 ¼ lengths in a time of 16:42.
-                  </p>
-                  <p>
-                    This equals the winning Oxford time in 2005, a time which
-                    hasn’t been matched since.
-                  </p>
+              <div class="winner__d-card bg-theme3 color-white">
+                <div class="winner__d-card__inner">
+                  <div class="winner__d-card__title">
+                    <h4>WINNER</h4>
+                    <h3 class="mb-0">OXFORD</h3>
+                  </div>
+                  <div class="winner__d-card__body">
+                    <span class="quote">“</span>
+                    <p>
+                      Oxford men broke Cambridge’s five year winning streak in
+                      the Men’s Boat Race winning by 2 ¼ lengths in a time of
+                      16:42.
+                    </p>
+                    <p>
+                      This equals the winning Oxford time in 2005, a time which
+                      hasn’t been matched since.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="col-lg-6">
-              <div class="winner__d-card">
-                <div class="winner-d-card__title">
-                  <h4>WINNER</h4>
-                  <h3>CAMBRIDGE</h3>
-                </div>
-                <div class="winner-d-card__body">
-                  <span class="quote">“</span>
-                  <p>
-                    Cambridge retained their title as winners of the Women’s
-                    Boat Race for the fifth consecutive year, 2 ½ lengths ahead
-                    of rivals Oxford.
-                  </p>
-                  <p>
-                    Both crews broke the course record, set in 2017, Cambridge
-                    setting in a new time of 18:23
-                  </p>
+              <div class="winner__d-card bg-theme4 color-white">
+                <div class="winner__d-card__inner">
+                  <div class="winner__d-card__title">
+                    <h4>WINNER</h4>
+                    <h3>CAMBRIDGE</h3>
+                  </div>
+                  <div class="winner__d-card__body">
+                    <span class="quote">“</span>
+                    <p>
+                      Cambridge retained their title as winners of the Women’s
+                      Boat Race for the fifth consecutive year, 2 ½ lengths
+                      ahead of rivals Oxford.
+                    </p>
+                    <p>
+                      Both crews broke the course record, set in 2017, Cambridge
+                      setting in a new time of 18:23
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -322,11 +477,17 @@
                 <div class="col-md-6">
                   <div
                     class="winner__card"
-                    style="background: url('images/winner-card-1.png')"
+                    style="
+                      background: url('images/winner-card-1.png') no-repeat
+                        center center/cover;
+                    "
                   >
                     <div class="winner__card__content">
                       <div class="h4-box">OUBC</div>
-                      <h3>Oxford University Boat Club</h3>
+                      <h3>
+                        Oxford University <br />
+                        Boat Club
+                      </h3>
                     </div>
                     <div class="winner__card__cup">
                       <img src="images/white-cup.svg" alt="" class="cup" />
@@ -337,11 +498,17 @@
                 <div class="col-md-6">
                   <div
                     class="winner__card"
-                    style="background: url('images/winner-card-2.png')"
+                    style="
+                      background: url('images/winner-card-2.png') no-repeat
+                        center center/cover;
+                    "
                   >
                     <div class="winner__card__content">
                       <div class="h4-box">OUBC</div>
-                      <h3>Cambridge University Boat Club</h3>
+                      <h3>
+                        Cambridge University <br />
+                        Boat Club
+                      </h3>
                     </div>
                     <div class="winner__card__cup">
                       <img src="images/white-cup.svg" alt="" class="cup" />
@@ -359,11 +526,17 @@
                 <div class="col-md-6">
                   <div
                     class="winner__card"
-                    style="background: url('images/winner-card-.png')"
+                    style="
+                      background: url('images/winner-card-3.png') no-repeat
+                        center center/cover;
+                    "
                   >
                     <div class="winner__card__content">
                       <div class="h4-box">OUWBC</div>
-                      <h3>Oxford University Woman’s Boat Club</h3>
+                      <h3>
+                        Oxford University <br />
+                        Woman’s Boat Club
+                      </h3>
                     </div>
                     <div class="winner__card__cup">
                       <img src="images/white-cup.svg" alt="" class="cup" />
@@ -374,11 +547,17 @@
                 <div class="col-md-6">
                   <div
                     class="winner__card"
-                    style="background: url('images/winner-card-.png')"
+                    style="
+                      background: url('images/winner-card-4.png') no-repeat
+                        center center/cover;
+                    "
                   >
                     <div class="winner__card__content">
                       <div class="h4-box">OUBC</div>
-                      <h3>Cambridge University Boat Club</h3>
+                      <h3>
+                        Cambridge University <br />
+                        Boat Club
+                      </h3>
                     </div>
                     <div class="winner__card__cup">
                       <img src="images/white-cup.svg" alt="" class="cup" />
@@ -401,43 +580,56 @@
         <!-- winner-section-end -->
 
         <!-- lens-section -->
-        <section class="lens-section">
-          <div class="container">
-            <div class="lens-section__inner">
-              <div
-                class="lense-section__title sec-title cont-blk cont-blk--center"
-              >
-                <h2 class="h2">Through the lens</h2>
-                <p>
-                  Thanks to our partnership with ROW360 we have access to a
-                  treasure trove of beautiful <br class="d-md-block d-none" />
-                  imagery of all things Boat Race, join us on Instagram to view
-                  more.
-                </p>
-              </div>
+        <section class="lens-section pb-0">
+          <div class="lens-section__inner">
+            <div
+              class="lense-section__title sec-title cont-blk cont-blk--center"
+            >
+              <h2 class="h2">Through the lens</h2>
+              <p>
+                Thanks to our partnership with ROW360 we have access to a
+                treasure trove of beautiful <br class="d-md-block d-none" />
+                imagery of all things Boat Race, join us on Instagram to view
+                more.
+              </p>
+            </div>
 
-              <div class="lens-card-wrap">
-                <div
-                  class="lens-card"
-                  style="background: url(images/lens-card-1.png)"
-                ></div>
-                <div
-                  class="lens-card"
-                  style="background: url(images/lens-card-2.png)"
-                ></div>
-                <div
-                  class="lens-card"
-                  style="background: url(images/lens-card-3.png)"
-                ></div>
-                <div
-                  class="lens-card"
-                  style="background: url(images/lens-card-4.png)"
-                ></div>
-                <div
-                  class="lens-card"
-                  style="background: url(images/lens-card-5.png)"
-                ></div>
-              </div>
+            <div class="lens-card-wrap">
+              <div
+                class="lens-card"
+                style="
+                  background: url(images/lens-card-1.png) no-repeat center
+                    center/cover;
+                "
+              ></div>
+              <div
+                class="lens-card"
+                style="
+                  background: url(images/lens-card-2.png) no-repeat center
+                    center/cover;
+                "
+              ></div>
+              <div
+                class="lens-card"
+                style="
+                  background: url(images/lens-card-3.png) no-repeat center
+                    center/cover;
+                "
+              ></div>
+              <div
+                class="lens-card"
+                style="
+                  background: url(images/lens-card-4.png) no-repeat center
+                    center/cover;
+                "
+              ></div>
+              <div
+                class="lens-card"
+                style="
+                  background: url(images/lens-card-5.png) no-repeat center
+                    center/cover;
+                "
+              ></div>
             </div>
           </div>
         </section>
@@ -453,7 +645,7 @@
                 <h2 class="h2">Keep up to date</h2>
                 <p>
                   Join our mailing list today and we’ll keep you informed of all
-                  <br class="d-md-none d-block" />
+                  <br class="d-md-block d-none" />
                   major developments, news and more, 100% spam free!
                 </p>
               </div>
@@ -566,11 +758,21 @@
             <div class="footer__top__right">
               <ul class="f-menu">
                 <li>
-                  <a href="#">HOME</a>
+                  <a class="active" href="#">HOME</a>
+                </li>
+                <li>
                   <a href="#">THE BOAT RACE</a>
+                </li>
+                <li>
                   <a href="#">CLUBS</a>
+                </li>
+                <li>
                   <a href="#">RESULTS</a>
+                </li>
+                <li>
                   <a href="#">NEWS</a>
+                </li>
+                <li>
                   <a href="#">PARTNERS</a>
                 </li>
               </ul>
@@ -616,19 +818,21 @@
                 </p>
               </div>
               <div class="fb-tg mb-0">
-                <p>For photo support or enquires please contact:</p>
-                <p>rod.sparks@row-360.com / +44 7825 005 365</p>
-                <p>ben.tufnell@row-360.com / +44 7868 814 782</p>
+                <p>
+                  For photo support or enquires please contact: <br />
+                  rod.sparks@row-360.com / +44 7825 005 365 <br />
+                  ben.tufnell@row-360.com / +44 7868 814 782
+                </p>
               </div>
             </div>
 
             <div class="footer__bottom__right">
               <div class="fb-tg">
-                <h4></h4>
-                <p>Acknowledgements</p>
-                <p>Terms & Conditions</p>
-                <p>Cookies</p>
-                <p>Privacy Policy</p>
+                <h4>Contact</h4>
+                <p><a href="#">Acknowledgements</a></p>
+                <p><a href="#">Terms & Conditions</a></p>
+                <p><a href="#">Cookies</a></p>
+                <p><a href="#">Privacy Policy</a></p>
               </div>
               <p class="copy-right">
                 © 2023 The Boat Race Company Ltd <br />

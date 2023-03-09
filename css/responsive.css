@@ -1,22 +1,408 @@
 
 
+@media (max-width: 1699px) {
+    body {
+        font-size: 14px;
+    }
+    .header__top__inner p .info-i {
+        width: 20px;
+    }
+    .s-menu li a {
+        width: 20px;
+    }
+    .header-logo {
+        width: 200px;
+    }
+    .main-menu > ul > li > a {
+        height: 75px;
+    }
+
+
+    .h4-box {
+        min-height: 36px;
+        padding: 4px 15px;
+        font-size: 14px;
+        border-radius: 15px 0 15px 0;
+    }
+    .hero-slide__content .h1 {
+        font-size: 45px;
+    }
+    .hero-slide__content h2 {
+        font-size: 30px;
+    }
+    .countdown-c .time-count {
+        font-size: 27px;
+        padding-right: 24px;
+        margin-right: 24px;
+    }
+    .countdown-c .time-count .title {
+        font-size: 17px;
+    }
+    .hr-countdown {
+        padding: 14px 20px;
+        border-radius: 20px;
+        gap: 25px;
+    }
+    .default-button {
+        min-height: 36px;
+        min-width: 135px;
+        padding: 5px 20px;
+        gap: 13px;
+        font-size: 14px;
+    }
+    .default-button .arr-right {
+        width: 19px !important;
+        transition: 0.3s;
+    }
+    .hero-slide {
+        padding: 90px 0 150px;
+    }
+
+    .hero-news__content h3 {
+        font-size: 24px;
+        margin: 0 0 15px;
+    }
+    .hero-news__content h4 {
+        font-size: 23px;
+    }
+    .hero-news__content .buttons {
+        margin: 25px 0 0;
+        gap: 15px;
+    }
+    .hero-news-cards__wrapper {
+        padding-top: 70px;
+        max-width: 270px;
+    }
+    .hero-news-cards__wrapper .t-h3 {
+        margin: 0 0 15px;
+        font-size: 18px;
+    }
+    .hero-news-card h4 {
+        font-size: 15px;
+    }
+    .hero-news-card {
+        padding: 8px 11px;
+        height: 145px;
+    }
+    .hero-news-row {
+        margin-top: -220px;
+        padding-bottom: 60px;
+    }
+    .hero-news__content {
+        padding-top: 235px;
+    }
+    .slider-dots-1 .owl-dot {
+        height: 12px;
+        width: 12px;
+    }
+    .hero-slider .owl-dots {
+        bottom: 100px;
+        transform: translate(calc(-50% - 505px),0);
+    }
+
+    .slider-arrow-1 .owl-nav button {
+        font-size: 14px !important;
+        gap: 9px;
+    }
+    .slider-arrow-1 .owl-nav button img {
+        width: 20px !important;
+    }
+    .hero-slider .owl-nav {
+        bottom: 96px;
+        transform: translate(calc(-50% - 420px),0);
+    }
+
+
+
+    .h2 {
+        font-size: 22px;
+        margin: 0 0 10px;
+        gap: 15px;
+    }
+    .cont-blk p {
+        font-size: 16px;
+    }
+    .sec-title {
+        margin: 0 0 30px;
+    }
+
+    .h2 .gold-cup {
+        width: 40px;
+    }
+
+    .winner__d-card__inner {
+        max-width: 380px;
+    }
+    .winner__d-card__title h4 {
+        font-size: 16px;
+    }
+    .winner__d-card__title h3 {
+        font-size: 24px;
+    }
+    .winner__d-card__body p {
+        font-size: 15px;
+    }
+    .winner__d-card__body .quote {
+        font-size: 40px;
+    }
+    .winner__d-card__body {
+        padding-left: 24px;
+    }
+    .winner__d-card__title {
+        margin: 0 0 17px;
+    }
+    .winner__d-card {
+        padding: 50px;
+    }
+
+
+    .winner-card__group__title {
+        top: -20px;
+    }
+    .winner-section {
+        --in-offset: 5px;
+    }
+
+
+    .winner__card__content h3 {
+        font-size: 20px;
+    }
+    .winner__card__cup .cup {
+        width: 25px;
+    }
+    .winner__card__cup {
+        font-size: 40px;
+        gap: 10px;
+    }
+    .winner__card {
+        padding: 20px;
+        min-height: 500px;
+    }
+    .winner-sec__bottom h4 {
+        font-size: 19px;
+    }
+    .winner-sec__bottom {
+        padding: 20px 0;
+        gap: 15px;
+    }
+
+    .contact-form__bottom p {
+        font-size: 12px;
+    }
+    .contact-form__main {
+        --bs-gutter-x: 25px;
+        --bs-gutter-y: 17px;
+    }
+    .contact-form {
+        max-width: 600px;
+    }
+
+
+    .footer-logo{
+        width: 250px;
+    }
+    .fb-tg h4 {
+        font-size: 14px;
+    }
+    .footer__top {
+        padding: 40px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer__bottom {
+        padding: 35px 0 40px;
+    }
+    .footer-section {
+        border-top-width: 12px;
+    }
+
+}
+
 @media (max-width: 1399px) {
  
 }
 
 
 @media (max-width: 1199px) {
- 
+    .hero-news-row__inner {
+        padding-left: 0;
+    }
+
+    .hero-slider .owl-dots {
+        transform: translate(calc(-50% - 435px),0);
+    }
+    .hero-slider .owl-nav {
+        transform: translate(calc(-50% - 350px),0);
+    }
 }
 
 
 @media (max-width: 991px) {
- 
+    .header__main {
+        padding: 20px 0;
+    }
+
+    .hero-slide__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .hero-slide {
+        padding: 70px 0 110px;
+    }
+    .hero-news-row {
+        margin-top: 0;
+        padding-bottom: 60px;
+        pointer-events: auto;
+        background: var(--theme__color3);
+        border-top: 30px solid var(--theme__color4);
+    }
+    .hero-slider .owl-dots {
+        transform: translate(calc(-50% - 40px),0);
+        bottom: 50px;
+    }
+    .hero-slider .owl-nav {
+        transform: translate(calc(-50% - -42px),0);
+        bottom: 46px;
+    }
+    .hero-news__content {
+        padding-top: 50px;
+    }
+    .hero-news-cards__wrapper {
+        margin: 0 auto;
+    }
+    .hero-news__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .hero-news-cards__wrapper .t-h3 {
+        text-align: center;
+    }
+    .hero-news-cards__wrapper {
+        padding-top: 50px;
+        max-width: 300px;
+    }
+    .partners__wrap {
+        grid-gap: 25px;
+        grid-template-columns: repeat(7,1fr);
+    }
+    .partners-section__inner {
+        padding: 0;
+    }
+    .lens-card-wrap {
+        grid-gap: 5px;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+
+    .footer__top {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    } 
+    .footer__top__right {
+        align-items: center;
+    }
+    .f-menu > li > a {
+        padding: 0 10px;
+    }
+    .f-menu {
+        margin: 0 0 20px;
+        gap: 5px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__bottom {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+    .footer__bottom__right {
+        text-align: center;
+    }
+
 }
 
 
 @media (max-width: 768px) {
- 
+    .header__top {
+        padding: 10px 0;
+    }
+    .header__top__inner p {
+        font-size: 12px;
+    }
+    .header__top__inner p .info-i {
+        width: 15px;
+    }
+    .header-logo {
+        width: 150px;
+    }
+    .header__main {
+        padding: 12px 0;
+    }
+
+    .hero-slide__content .h1 {
+        font-size: 30px;
+    }
+    .hero-slide__content h2 {
+        font-size: 20px;
+    }
+    .hr-countdown {
+        flex-direction: column;
+    }
+    .countdown-c .time-count {
+        font-size: 22px;
+        border-right: none;
+        padding-right: 0;
+        margin-right: 0;
+        width: 70px;
+    }
+    .countdown-c .time-count .title {
+        font-size: 14px;
+    }
+
+
+    .hero-news__content h3 {
+        font-size: 20px;
+        margin: 0 0 12px;
+    }
+    .hero-news__content h4 {
+        font-size: 18px;
+    }
+    .hero-news__content .buttons {
+        flex-direction: column;
+    }
+    .hero-news-row {
+        border-top-width: 20px;
+    }
+    .partners__wrap {
+        grid-gap: 22px;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .cont-blk p {
+        font-size: 15px;
+    }
+
+    .winner-sec__bottom {
+        flex-direction: column;
+    }
+
+    .lens-card-wrap {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .lens-card {
+        min-height: 250px;
+    }
+    .check-label-x {
+        gap: 14px;
+    }
+
+
 }
 
 
@@ -25,6 +411,24 @@
 }
 
 
-@media (max-width: 390px) {
- 
+@media (max-width: 370px) {
+    .countdown-c .time-count {
+        font-size: 22px;
+        width: 65px;
+    }
+    .hr-countdown {
+        padding: 14px 12px;
+        border-radius: 20px;
+        gap: 15px;
+    }
+    .hero-slide__content h2 {
+        font-size: 18px;
+    }
+    .hero-slide__content .h1 {
+        font-size: 28px;
+    }
+
+    .winner__d-card {
+        padding: 40px 20px;
+    }
 }
