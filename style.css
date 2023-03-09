@@ -1,0 +1,646 @@
+/*-----------------------------------=========Main-Style-Sheet=========----------------------------------------*/
+
+
+@font-face {
+  font-family: 'Highgate';
+  src: url('webfonts/HighgateTrial-MediumItalic.woff') format('woff'),
+      url('webfonts/HighgateTrial-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Highgate';
+  src: url('webfonts/HighgateTrial-Medium.woff') format('woff'),
+      url('webfonts/HighgateTrial-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Highgate';
+  src: url('webfonts/HighgateTrial-LightItalic.woff') format('woff'),
+      url('webfonts/HighgateTrial-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Highgate';
+  src: url('webfonts/HighgateTrial-Regular.woff') format('woff'),
+      url('webfonts/HighgateTrial-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Highgate';
+  src: url('webfonts/HighgateTrial-SemiBold.woff') format('woff'),
+      url('webfonts/HighgateTrial-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Highgate';
+  src: url('webfonts/HighgateTrial-SemiBoldItalic.woff') format('woff'),
+      url('webfonts/HighgateTrial-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Highgate';
+  src: url('webfonts/HighgateTrial-Thin.woff') format('woff'),
+      url('webfonts/HighgateTrial-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Highgate';
+  src: url('webfonts/HighgateTrial-ThinItalic.woff') format('woff'),
+      url('webfonts/HighgateTrial-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Highgate XBold';
+  src: url('webfonts/HighgateTrial-XBold.woff') format('woff'),
+      url('webfonts/HighgateTrial-XBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Highgate XBold';
+  src: url('webfonts/HighgateTrial-XBoldItalic.woff') format('woff'),
+      url('webfonts/HighgateTrial-XBoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Highgate';
+  src: url('webfonts/HighgateTrial-Bold.woff') format('woff'),
+      url('webfonts/HighgateTrial-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Highgate';
+  src: url('webfonts/HighgateTrial-BoldItalic.woff') format('woff'),
+      url('webfonts/HighgateTrial-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Highgate';
+  src: url('webfonts/HighgateTrial-Black.woff') format('woff'),
+      url('webfonts/HighgateTrial-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Highgate';
+  src: url('webfonts/HighgateTrial-BlackItalic.woff') format('woff'),
+      url('webfonts/HighgateTrial-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Highgate Hairline';
+  src: url('webfonts/HighgateTrial-Hairline.woff') format('woff'),
+      url('webfonts/HighgateTrial-Hairline.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Highgate Hairline';
+  src: url('webfonts/HighgateTrial-HairlineItalic.woff') format('woff'),
+      url('webfonts/HighgateTrial-HairlineItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Highgate';
+  src: url('webfonts/HighgateTrial-Italic.woff') format('woff'),
+      url('webfonts/HighgateTrial-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Highgate';
+  src: url('webfonts/HighgateTrial-Light.woff') format('woff'),
+      url('webfonts/HighgateTrial-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'NovelDisplay-BoldXCnd';
+  src: url('webfonts/NovelDisplay-BoldXCnd.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay-ExtraBlack';
+  src: url('webfonts/NovelDisplay-ExtraBlack.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay-ExtraBlackCmp';
+  src: url('webfonts/NovelDisplay-ExtraBlackCmp.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay-ExtraBlackXCmp';
+  src: url('webfonts/NovelDisplay-ExtraBlackXCmp.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay-ExtraBlackXCnd';
+  src: url('webfonts/NovelDisplay-ExtraBlackXCnd.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay-ExtraBlackCnd';
+  src: url('webfonts/NovelDisplay-ExtraBlackCnd.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay';
+  src: url('webfonts/NovelDisplay-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay-ExtraBoldXCnd';
+  src: url('webfonts/NovelDisplay-ExtraBoldXCnd.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay-ExtraBoldXCmp';
+  src: url('webfonts/NovelDisplay-ExtraBoldXCmp.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay';
+  src: url('webfonts/NovelDisplay-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay-ExtraLightCmp';
+  src: url('webfonts/NovelDisplay-ExtraLightCmp.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay-ExtraBoldCmp';
+  src: url('webfonts/NovelDisplay-ExtraBoldCmp.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay-ExtraBoldCnd';
+  src: url('webfonts/NovelDisplay-ExtraBoldCnd.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay-LightCnd';
+  src: url('webfonts/NovelDisplay-LightCnd.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay-ExtraLightXCmp';
+  src: url('webfonts/NovelDisplay-ExtraLightXCmp.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay-LightXCmp';
+  src: url('webfonts/NovelDisplay-LightXCmp.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay';
+  src: url('webfonts/NovelDisplay-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay-LightCmp';
+  src: url('webfonts/NovelDisplay-LightCmp.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay-ExtraLightXCnd';
+  src: url('webfonts/NovelDisplay-ExtraLightXCnd.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay-LightXCnd';
+  src: url('webfonts/NovelDisplay-LightXCnd.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay-MediumXCmp';
+  src: url('webfonts/NovelDisplay-MediumXCmp.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay-MediumCnd';
+  src: url('webfonts/NovelDisplay-MediumCnd.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay';
+  src: url('webfonts/NovelDisplay-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay-MediumCmp';
+  src: url('webfonts/NovelDisplay-MediumCmp.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay';
+  src: url('webfonts/NovelDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay-RegularCnd';
+  src: url('webfonts/NovelDisplay-RegularCnd.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay-RegularCmp';
+  src: url('webfonts/NovelDisplay-RegularCmp.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay-MediumXCnd';
+  src: url('webfonts/NovelDisplay-MediumXCnd.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay-RegularXCnd';
+  src: url('webfonts/NovelDisplay-RegularXCnd.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NovelDisplay-RegularXCmp';
+  src: url('webfonts/NovelDisplay-RegularXCmp.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+:root {
+  --theme__color1: #E4002B;
+  --theme__color2: #FFD600;
+  --theme__color3: #012148;
+  --theme__color4: #9BBEA7;
+  --highgate: 'Highgate';
+  --novel-display: 'NovelDisplay';
+}
+*,::before,::after {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #000000;
+  overflow-x: hidden;
+  word-wrap: break-word;
+  word-break: normal;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  font-family: var(--highgate);
+}
+a, a:active, a:focus, a:active, a:hover {
+  text-decoration:none !important;
+  color: inherit;
+}
+input{
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a:hover,
+a:focus,
+input:focus,
+input:hover,
+select:focus,
+select:hover,
+select:active,
+textarea:focus,
+textarea:hover,
+button:focus {
+  outline: none;
+}
+::placeholder {
+  opacity: 1;
+}
+:focus::placeholder {
+  opacity: 0;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed; /* Prevents HTML tables from becoming too wide */
+  width: 100%;
+}
+img {
+  -ms-interpolation-mode: bicubic;
+  border: 0;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+iframe {
+  width: 100%;
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+  font-weight: 700;
+  font-family: var(--novel-display);
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+p{
+  margin-bottom: 15px;
+}
+p:last-child{
+  margin: 0;
+}
+.main-wrap {
+  width: 100%;
+  overflow: hidden;
+}
+@media (max-width: 1699px) and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1700px) {
+  .container {
+    max-width: 1410px;
+  }
+}
+
+
+
+/* header */
+.header-section {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+/* header-end */
+
+
+
+
+
+
+
+
+
+/* ---offcanvas-css--- */
+.offcanvas-open {
+  font-size: 22px;
+  transition: 0.3s;
+}
+.offcanvas-open:hover {
+  color: #97A3AE;
+}
+.offcanvas-close {
+  color: var(--theme__color1);
+  position: absolute;
+  transition: 0.3s;
+  right: 25px;
+  top: 25px;
+}
+.offcanvas-close:hover {
+  color: #97A3AE;
+}
+.offcanvas-menu {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  transform: translateX(-105%);
+  transition: 0.3s;
+}
+.offcanvas-menu.active {
+  transform: translate(0);
+}
+.offcanvas-menu .offmenu {
+  max-width: 250px;
+  min-width: 200px;
+  z-index: 5;
+  position: relative;
+  background: #d5dce2;
+  height: 100%;
+  padding: 50px 20px 40px;
+  overflow: auto;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.offcanvas-menu .offmenu :-webkit-scrollbar {
+  display: none;
+}
+.offcanvas-menu ul li a {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  color: var(--theme__color1);
+  padding: 10px;
+}
+.dropdown-menu-custom ul {
+  background: #fff;
+  padding: 20px 0;
+}
+.dropdown-menu-custom ul li a {
+  color: #97A3AE;
+}
+.offcanvas-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.178);
+  z-index: 2;
+  transform: 0;
+  z-index: 900;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+.offcanvas-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+/* ---offcanvas-css-end---*/
+
+/* --preloader-- */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background: #fff;
+}
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid var(--theme__color1);
+  border-top-color: #e2eefd;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: animate-preloader 1s linear infinite;
+  animation: animate-preloader 1s linear infinite;
+}
+@-webkit-keyframes animate-preloader {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+@keyframes animate-preloader {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+/* --preloader-end-- */
