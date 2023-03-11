@@ -89,6 +89,9 @@
 
 
 /* small-tools */
+.h-0 {
+    height: 0 !important;
+}
 .underline {
     text-decoration: underline !important;
 }

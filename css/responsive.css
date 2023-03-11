@@ -216,10 +216,133 @@
         border-top-width: 12px;
     }
 
+
+    .mega-menu__str-1 {
+        padding: 0 0 0 100px;
+        --bs-gutter-x: 45px;
+    }
+    .mega-m-card__image {
+        width: 180px;
+    }
+    .mega-m-card__content h4 {
+        font-size: 14px;
+        margin: 0 0 9px;
+    }
+    .mega-m-card__content p {
+        font-size: 14px;
+    }
+    .mega-menu {
+        padding: 35px 0;
+        border-top-width: 1px;
+    }
+
+
+    .h2-b {
+        font-size: 30px;
+    }
+    .news-card__content h3 {
+        font-size: 18px;
+        margin: 0 0 7px;
+    }
+    .news-card__content h5 {
+        font-size: 14px;
+        margin: 0 0 10px;
+    }
+    .news-card__content p {
+        font-size: 14px;
+    }
+    .news-card__content .bottom-button {
+        margin-top: 5px;
+    }
+    .news__wrap {
+        --bs-gutter-y: 45px;
+        padding: 10px 0;
+    }
+    .news-section {
+        padding: 40px 0 35px;
+    }
+
+
+    .post-hero__image {
+        height: 450px;
+    }
+    .post-hero__content {
+        padding: 32px 0;
+        border-top-width: 12px;
+    }
+    .post-hero__content h2 {
+        font-size: 30px;
+        margin: 0 0 8px;
+    }
+    .post-hero__content p {
+        font-size: 22px;
+    }
+    .post-content p {
+        margin: 0 0 20px;
+    }
+
+
+    .default-hero__content h1 {
+        font-size: 35px;
+        margin: 0 0 10px;
+    }
+    .default-hero__content p {
+        font-size: 18px;
+    }
+    .default-hero__content::before {
+        height: 150px;
+    }
+    .default-hero__content__inner {
+        margin-top: -25px;
+    }
+    .default-hero__content {
+        padding: 0 0 30px;
+    }
+    .default-hero-image {
+        height: 480px;
+    }
+    .post__space-m {
+        margin-bottom: 28px;
+    }
+    .post__space-l {
+        margin-bottom: 50px;
+    }
+    .p-faq_wrap {
+        gap: 12px;
+    }
+    .post-in-row {
+        --bs-gutter-x: 30px;
+    }
+    .post-in-card__wrap {
+        --bs-gutter-x: 30px;
+    }
+    .post-in-card h4 {
+        font-size: 14.5px;
+    }
+    .post-in-card {
+        padding: 11px 15px;
+        height: 200px;
+    }
+
+    .table-mdl-1 table thead td {
+        font-size: 12px;
+    }
+    .table-mdl-1 table td {
+        height: 42px;
+        padding: 5px 11px;
+        font-size: 14px;
+    }
+
 }
 
 @media (max-width: 1399px) {
- 
+    .mega-menu__str-1 {
+        padding: 0;
+        --bs-gutter-x: 40px;
+    }
+    .mega-m-card__image {
+        width: 150px;
+    }
 }
 
 
@@ -234,12 +357,32 @@
     .hero-slider .owl-nav {
         transform: translate(calc(-50% - 350px),0);
     }
+
+    .section__white-box {
+        padding: 25px 20px;
+    }
+    .news-section__title {
+        padding: 0 20px;
+    }
+
 }
 
 
 @media (max-width: 991px) {
     .header__main {
         padding: 20px 0;
+    }
+    .mega-m-card__content h4 {
+        font-weight: 700;
+        margin: 0 0 10px;
+        color: var(--theme__color1);
+    }
+    .mega-m-card__content p {
+        line-height: 2;
+        font-weight: 500;
+    }
+    .mega-m-card__content p a:hover {
+        color: var(--theme__color1);
     }
 
     .hero-slide__content {
@@ -403,6 +546,58 @@
     }
 
 
+    .news-card {
+        flex-wrap: wrap;
+    }
+    .news-card__image {
+        width: 100%;
+    }
+    .h2-b {
+        font-size: 25px;
+    }
+    .news-card__content h3 {
+        font-size: 17px;
+    }
+
+
+    .post-hero__image {
+        height: 300px;
+    }
+    .post-hero__content {
+        padding: 25px 0;
+        border-top-width: 8px;
+    }
+    .post-hero__content h2 {
+        font-size: 25px;
+    }
+    .post-hero__content p {
+        font-size: 16px;
+    }
+
+
+    .default-hero-image {
+        height: 370px;
+    }
+
+    .default-hero__content::before {
+        height: 60px;
+    }
+    .default-hero__content h1 {
+        font-size: 25px;
+        margin: 0 0 8px;
+    }
+    .default-hero__content p {
+        font-size: 15px;
+    }
+    .default-hero__content__inner {
+        margin-top: -5px;
+    }
+    .default-hero__content {
+        padding: 0 0 23px;
+    }
+    .p-faq__body__inner .bottom-button {
+        margin-top: 15px;
+    }
 }
 
 
