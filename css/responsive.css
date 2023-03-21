@@ -333,6 +333,71 @@
         font-size: 14px;
     }
 
+
+    .bow-user__column__image {
+        height: 290px;
+        width: 290px;
+    }
+    .bow-user__column__td h4 {
+        font-size: 18px;
+        margin: 0 0 8px;
+    }
+    .bow-user__column__td h5 {
+        font-size: 16px;
+    }
+    .bow-user__column__td {
+        padding: 12px 0;
+        border-bottom-width: 1px;
+    }
+    .bow-user__column__tc h4 {
+        font-size: 16px;
+        margin: 0 0 25px;
+    }
+    .bow-user__column__tc .dta {
+        font-size: 16px;
+        margin: 0 0 20px;
+    }
+    .bow-combat-column .bow-d-img {
+        width: 100px;
+        margin: 0 0 5px;
+    }
+    .bow-combat-column h3 {
+        font-size: 23px;
+    }
+    .bow-user__part {
+        padding: 40px 8.1%;
+    }
+    .bow-card__wrapper {
+        --bs-gutter-x: 40px;
+        --bs-gutter-y: 35px;
+    }
+    .bow-card__part {
+        padding: 55px 8.1%;
+    }
+
+    .default-hero__content h1 .h2-gemini {
+        width: 250px;
+    }
+    .post-content h4 {
+        font-size: 20px;
+        margin: 0 0 20px;
+    }
+    .ul-x li {
+        font-size: 16px;
+        padding-left: 0px;
+    }
+    .ul-x li::marker {
+        font-size: 20px;
+    }
+    .ul-x {
+        gap: 8px;
+        margin-bottom: 18px;
+        padding-left: 17px;
+    }
+    .post-content__bt-buttons {
+        padding-top: 15px;
+        gap: 17px;
+    }
 }
 
 @media (max-width: 1399px) {
@@ -364,7 +429,20 @@
     .news-section__title {
         padding: 0 20px;
     }
+    .bow-user__part {
+        padding: 30px 20px;
+    }
+    .bow-card__part {
+        padding: 35px 20px;
+    }
+    .bow-card__wrapper {
+        --bs-gutter-x: 20px;
+        --bs-gutter-y: 20px;
+    }
 
+    .default-hero__content__inner {
+        padding: 0 20px;
+    }
 }
 
 
@@ -469,6 +547,11 @@
         text-align: center;
     }
 
+
+    .bow-combat-column {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
 }
 
 
@@ -597,6 +680,26 @@
     }
     .p-faq__body__inner .bottom-button {
         margin-top: 15px;
+    }
+
+    .bow-user__column__image {
+        height: 200px;
+        width: 200px;
+    }
+    .bow-combat-column {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .bow-combat-column .bow-d-img {
+        width: 70px;
+    }
+    .bow-combat-column h3 {
+        font-size: 18px;
+    }
+
+
+    .default-hero__content h1 .h2-gemini {
+        width: 170px;
     }
 }
 

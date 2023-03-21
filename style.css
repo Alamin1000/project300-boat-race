@@ -1441,12 +1441,41 @@ p:last-child{
 .post-content {
 
 }
+.post-content h4 {
+  font-size: 25px;
+  margin: 0 0 25px;
+  font-weight: 600;
+  font-family: var(--novel-display);
+}
 .post-content p {
   margin: 0 0 25px;
   font-weight: 300;
 }
 .post-content p:last-child {
   margin: 0;
+}
+.ul-x {
+  gap: 12px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  list-style: disc;
+  padding-left: 23px;
+}
+.ul-x li {
+  font-size: 18px;
+  padding-left: 2px;
+  font-weight: 300;
+}
+.ul-x li::marker {
+  font-size: 25px;
+  color: var(--theme__color3);
+}
+.post-content__bt-buttons {
+  padding-top: 25px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
 .post-map {
@@ -1662,13 +1691,24 @@ p:last-child{
   left: 0;
   z-index: -1;
 }
+.default-hero__content--light {
+  color: inherit;
+  background: #FAFAFA;
+}
+.default-hero__content--light::before {
+  background: url('images/default-hero-content-bg-light-short.png') no-repeat center center/100% 100%;
+}
 .default-hero__content__inner {
   margin-top: -40px;
+  padding: 0 9.5%;
 }
 .default-hero__content h1 {
   font-size: 50px;
   line-height: 1.15;
   margin: 0 0 12px;
+}
+.default-hero__content h1 .h2-gemini {
+  width: 335px;
 }
 .default-hero__content p {
   font-size: 25px;
@@ -1677,3 +1717,101 @@ p:last-child{
   font-family: var(--novel-display);
 }
 /* ---default-hero-section---end */
+
+
+/* ---bow-section--- */
+.bow-section {
+  padding: 30px 0;
+}
+.bow-section__inner {
+
+}
+
+.bow-main-box {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.bow-user__part {
+	padding: 60px 9.6%;
+	background: #FAFAFA;
+}
+.bow-user__column {
+  text-align: center;
+}
+.bow-user__column__image {
+  height: 340px;
+  width: 340px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.bow-user__column__image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: inherit;
+}
+.bow-user__column__td {
+  padding: 17px 0;
+  border-bottom: 2px solid rgba(1, 32, 71, 0.3);
+}
+.bow-user__column__td h4 {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: var(--highgate);
+  margin: 0 0 10px;
+}
+.bow-user__column__td h5 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: var(--highgate);
+  margin: 0;
+}
+.bow-user__column__tc {
+  padding-top: 23px;
+}
+.bow-user__column__tc h4 {
+  font-size: 20px;
+  margin: 0 0 40px;
+  font-weight: 700;
+  font-family: var(--highgate);
+}
+.bow-user__column__tc .dta {
+  font-size: 20px;
+  margin: 0 0 35px;
+  font-weight: 500;
+  font-family: var(--highgate);
+}
+
+.bow-combat-column {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.bow-combat-column .bow-d-img {
+  width: 160px;
+  margin: 0 0 8px;
+}
+.bow-combat-column h3 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: var(--highgate);
+}
+
+.bow-card__part {
+  padding: 74px 8.1%;
+  background: #fff;
+}
+.bow-card__wrapper {
+  --bs-gutter-x: 60px;
+  --bs-gutter-y: 50px;
+}
+.bow-card {
+
+}
+.bow-card .img {
+  width: 100%;
+}
+/* ---bow-section---end */
